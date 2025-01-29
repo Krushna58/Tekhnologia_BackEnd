@@ -18,7 +18,7 @@ public class AppService {
 	}
 
 	public AppDTO findById(Integer id) {
-		// TODO Auto-generated method stub
+	
 		AppDTO findId=repo.findById(id).orElse(null);
 		return findId;
 		
